@@ -1,0 +1,17 @@
+{
+  "content": {
+    "body": "We have updated our [Homeserver Terms](https://matrix.org/legal/terms-and-conditions/) and [Privacy Policy](https://matrix.org/legal/privacy-notice/). We strongly encourage you to read these documents in full, but for clarity these are some of the main changes:\n\n- Updated the minimum age requirements for use of the [Matrix.org](http://matrix.org/) Homeserver to be 18 years old;\n- Introduced new measures to comply with our obligations under the Online Safety Act and the Digital Services Act;\n- Introduced new payment terms to support paid plans on the [Matrix.org](http://matrix.org/) Homeserver;\n- Describe the new data processors to support paid plans on the [Matrix.org](http://matrix.org/) Homeserver.\n\nEach of the documents has a detailed version history which we encourage you to review. The updated Homeserver Terms and Privacy Policy take effect on 7 August, 2025. These terms apply to you by continuing to use the homeserver after that date. If you have any questions please drop us an email to [legal@matrix.org](mailto:legal@matrix.org)",
+    "format": "org.matrix.custom.html",
+    "formatted_body": "<p>We have updated our <a href=\"https://matrix.org/legal/terms-and-conditions/\">Homeserver Terms</a> and <a href=\"https://matrix.org/legal/privacy-notice/\">Privacy Policy</a>. We strongly encourage you to read these documents in full, but for clarity these are some of the main changes:</p>\n<ul>\n<li>Updated the minimum age requirements for use of the <a href=\"http://matrix.org/\">Matrix.org</a> Homeserver to be 18 years old;</li>\n<li>Introduced new measures to comply with our obligations under the Online Safety Act and the Digital Services Act;</li>\n<li>Introduced new payment terms to support paid plans on the <a href=\"http://matrix.org/\">Matrix.org</a> Homeserver;</li>\n<li>Describe the new data processors to support paid plans on the <a href=\"http://matrix.org/\">Matrix.org</a> Homeserver.</li>\n</ul>\n<p>Each of the documents has a detailed version history which we encourage you to review. The updated Homeserver Terms and Privacy Policy take effect on 7 August, 2025. These terms apply to you by continuing to use the homeserver after that date. If you have any questions please drop us an email to <a href=\"mailto:legal@matrix.org\">legal@matrix.org</a></p>\n",
+    "msgtype": "m.text"
+  },
+  "origin_server_ts": 1753847471967,
+  "sender": "@server:matrix.org",
+  "type": "m.room.message",
+  "unsigned": {
+    "membership": "join",
+    "age": 1037
+  },
+  "event_id": "$-ebQGinPlDJVDSAyS8VdDq6EhVfn8iuowXP727DMfOE",
+  "room_id": "!QONrSfkdyCaRfgpRUb:matrix.org"
+}
