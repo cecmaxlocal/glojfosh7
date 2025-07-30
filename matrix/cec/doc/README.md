@@ -1,6 +1,7 @@
 Of course. Here is a professional `README.md` file generated based on your specifications for the project `glojfosh7` and the `Libelula` framework.
 
-<img src="../image/logon.jpg">
+![studio-dslisp](../image/logon.jpg)
+
 
 ---
 
