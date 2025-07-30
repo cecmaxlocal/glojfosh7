@@ -1,0 +1,17 @@
+{
+  "content": {
+    "body": "Dlisp Langue Script Apprehensive Editor IDE Core Effect ",
+    "m.mentions": {},
+    "msgtype": "m.text"
+  },
+  "origin_server_ts": 1753740346373,
+  "sender": "@cecmaxlocal:matrix.org",
+  "type": "m.room.message",
+  "unsigned": {
+    "membership": "join",
+    "age": 840,
+    "transaction_id": "m1753740345767.26"
+  },
+  "event_id": "$RbU0fcUbLGExuHd744Rq8b3u9YMo9NfceTvWyp2YzPA",
+  "room_id": "!UNybbMLXdOJzWrwaqo:matrix.org"
+}

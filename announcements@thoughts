@@ -1,0 +1,61 @@
+Here's a thinking process for generating the Dart/Flutter announcements summary:
+
+1.  **Identify the Core Request:** The user wants "announcements dart". This implies recent, significant news related to the Dart programming language and, by extension, the Flutter framework, as they are tightly coupled.
+
+2.  **Determine the Relevant Timeframe:** "Announcements" usually means recent events. What are the major release cycles or events for Dart/Flutter?
+    *   Google I/O is the biggest annual event (usually May).
+    *   SDK releases happen periodically (roughly quarterly).
+    *   Major features might be announced outside specific release cycles but often culminate in a release.
+    *   So, focus on events/releases from roughly the last 6-9 months, especially anything coinciding with Google I/O 2024.
+
+3.  **Brainstorm Key Topics/Areas of Development:** What have been the major themes in Dart/Flutter development lately?
+    *   Performance (always a focus)
+    *   Web support (historically JS, now Wasm)
+    *   Rendering engine (Impeller)
+    *   Language evolution (Patterns, Records, Macros)
+    *   AI integration (Google's broader push)
+    *   Tooling (DevTools, IDEs)
+    *   Multi-platform support (Desktop, Embedded)
+
+4.  **Recall Specific Major Announcements:** Link the brainstormed topics to concrete events/features:
+    *   **Google I/O 2024 (May):** This is the most recent *major* event. What was announced?
+        *   Dart 3.4 / Flutter 3.22 release.
+        *   Wasm support going *stable* for Flutter Web. This is huge.
+        *   AI integration (Gemini, Vertex AI SDKs).
+        *   Impeller updates (default on Android/iOS, progress on Desktop).
+        *   Material 3 updates.
+    *   **Before I/O / Ongoing:**
+        *   Impeller rollout milestones (becoming default on mobile).
+        *   Wasm development leading *up to* stable (previews, WasmGC).
+        *   Macros feature development (experimental).
+        *   Continued adoption of Dart 3 features (Patterns, Records).
+        *   DevTools improvements alongside releases.
+
+5.  **Structure the Announcements:** Organize the information logically. A good structure could be:
+    *   Start with the most recent major event (I/O 2024).
+    *   Group related announcements under key themes (Wasm, Impeller, Language, AI, Tooling).
+    *   Maintain a roughly chronological flow where appropriate (e.g., Wasm development leading to stable).
+    *   Add a concluding summary.
+    *   Point to official sources for more details.
+
+6.  **Draft the Content (Iterative Process):**
+
+    *   **Intro:** State that the summary covers recent major announcements.
+    *   **I/O 2024 Release:** Detail Dart 3.4/Flutter 3.22. Mention Wasm stable *first* as it's likely the biggest news. Include AI tie-ins, Impeller status, M3.
+    *   **Wasm Deep Dive:** Elaborate slightly on what stable Wasm means (native execution, performance potential, ongoing work).
+    *   **Impeller Deep Dive:** Explain its goal (jank reduction), current status (default mobile, preview desktop), and future work.
+    *   **Language Features:** Mention Macros (experimental) and Patterns/Records (maturing). Keep this concise as they weren't *newly* announced at I/O but are still relevant ongoing developments.
+    *   **AI Integration:** Reiterate the Gemini/Vertex AI focus from I/O.
+    *   **Tooling:** Briefly mention DevTools updates supporting new features.
+    *   **Platform Support:** Acknowledge the cross-platform nature and maybe mention emerging platforms like RISC-V if relevant (though less of a headline announcement).
+    *   **Summary:** Recap the main themes (Performance, Productivity, AI, Wasm).
+    *   **Resources:** Provide links to official blogs.
+
+7.  **Refine and Edit:**
+    *   Ensure clarity and conciseness. Avoid jargon where possible or explain it briefly (e.g., WasmGC).
+    *   Use formatting (bolding, bullet points) to improve readability.
+    *   Check for accuracy (e.g., Impeller status on different platforms).
+    *   Make sure the tone is informative.
+    *   Ensure it directly answers the user's request for "announcements".
+
+8.  **Self-Correction Example during Drafting:** Initially, I might just list features from Dart 3.4. Then I'd realize the *context* of the announcement (Google I/O) is important, and the *impact* (Wasm stable!) needs highlighting. Also, I might initially forget to mention AI, but recalling Google's overall push would prompt adding that section. I'd also ensure I clearly distinguish between *stable* features (Wasm, Impeller on mobile) and *experimental/preview* features (Macros, Impeller on desktop).

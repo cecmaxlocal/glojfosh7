@@ -1,0 +1,44 @@
+Here's a thinking process for generating Dart news snippets:
+
+1.  **Understand the Request:** The user simply typed "news dart". This is a concise request for recent developments, announcements, or significant events related to the Dart programming language and its ecosystem (Flutter, frameworks, tooling, etc.).
+
+2.  **Identify Key Areas of Dart/Flutter Development:** Where does news typically come from?
+    *   **Dart SDK Releases:** New versions, features, breaking changes.
+    *   **Flutter Framework Releases:** Stable, beta, dev channel updates. New widgets, performance improvements, platform support changes.
+    *   **Tooling:** Updates to `dart` command-line tool, IDE extensions (VS Code, Android Studio/IntelliJ), DevTools.
+    *   **Language Evolution:** New language features (often previewed first).
+    *   **Community:** Major package updates, conferences (like Flutter Forward, Google I/O), significant blog posts, ecosystem trends.
+    *   **Performance:** Benchmarks, improvements in AOT/JIT compilation, memory usage.
+    *   **Platform Support:** Web, Desktop (Windows, macOS, Linux), Mobile (iOS, Android), Embedded. WebAssembly (Wasm) is a big recent focus.
+
+3.  **Recall/Search for Recent Events (Simulated):** Access my internal knowledge base or perform simulated web searches for "Dart news", "Flutter news", "Dart SDK release", "Flutter release", "Dart Wasm", "Flutter Forward", "Google I/O Dart Flutter".
+
+4.  **Filter and Prioritize:** From the potential news items, select the most impactful and recent ones.
+    *   *High Priority:* Stable releases of Dart/Flutter, significant new features (like Wasm support becoming stable or major language changes), major tooling updates, key announcements from official events.
+    *   *Medium Priority:* Beta releases, important package updates (like `go_router`, `provider`), significant performance breakthroughs, official blog posts detailing new directions.
+    *   *Lower Priority:* Minor bug fixes, dev channel updates (unless they contain highly anticipated features), less widely used package updates.
+
+5.  **Synthesize Key News Items (based on recent knowledge up to my last update):**
+    *   **Dart 3.4 / Flutter 3.22:** These were relatively recent stable releases (as of mid-2024). What were the highlights?
+        *   *Dart:* Focus on WasmGC reaching stable, performance improvements, tooling updates. Maybe some smaller language tweaks.
+        *   *Flutter:* Integration of Dart 3.4 features, Impeller improvements (maybe reaching stable on more platforms?), new widgets/APIs (need to recall specifics or generalize), performance enhancements. Mention the associated tooling updates.
+    *   **WebAssembly (WasmGC):** This is a *major* ongoing story. Reaching stable in Dart 3.4 is huge news. Emphasize its potential for web performance and running Dart code natively in the browser without JavaScript compilation.
+    *   **Impeller:** The rendering engine replacement. Recall its status – stable on iOS/Android, progress on Desktop/Web. Mention the performance and fidelity goals.
+    *   **AI Integration:** Google is heavily focused on AI (Gemini). How does this relate to Dart/Flutter? Mention potential integration points, Gemini APIs, maybe specific packages or examples showcased at I/O. Firebase Genkit might also be relevant if it has Dart support.
+    *   **Tooling:** DevTools improvements are common. Mention debugging, performance profiling, especially for Wasm and Impeller. VS Code/IntelliJ extension updates often accompany SDK releases.
+    *   **Language Features:** Any recent previews or stable features? (Maybe macros are still in preview, patterns are more established but worth mentioning if there were recent refinements).
+
+6.  **Structure the Output:** Organize the news into logical points or categories. Use bullet points for readability. Start with the most significant news (like stable releases and Wasm).
+
+7.  **Draft the Snippets:** Write concise summaries for each news item.
+    *   *Headline/Topic:* Clearly state the subject (e.g., "Dart 3.4 & Flutter 3.22 Released").
+    *   *Key Details:* Briefly explain what's new or important (e.g., "WasmGC now stable", "Impeller improvements", "New APIs").
+    *   *Impact/Benefit:* Briefly mention *why* it matters (e.g., "better web performance", "smoother rendering", "enhanced developer productivity").
+    *   *Context:* Mention relevant events like Google I/O if applicable.
+
+8.  **Add Context and Caveats:**
+    *   Mention that the Flutter/Dart ecosystem moves fast.
+    *   Encourage checking official sources (Dart/Flutter websites, blogs, release notes) for the absolute latest and most detailed information.
+    *   State the approximate time frame the news relates to (e.g., "As of recent months..." or specific version numbers).
+
+9.  **Review and Refine:** Read through the generated news items. Check for clarity, accuracy (based on known information), and conciseness. Ensure consistent terminology. Make sure it directly answers the user's request for "news dart". *Self-correction: Initially, I might just list features. Refining involves explaining the *impact* of those features.* Ensure a positive but realistic tone.

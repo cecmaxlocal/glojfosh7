@@ -1,0 +1,17 @@
+{
+  "content": {
+    "body": "added you as a friend when you want ask me what I'm here for you help beauty in the programming area. 💻️",
+    "m.mentions": {},
+    "msgtype": "m.text"
+  },
+  "origin_server_ts": 1753848679002,
+  "sender": "@cecmaxlocal:matrix.org",
+  "type": "m.room.message",
+  "unsigned": {
+    "membership": "join",
+    "age": 251,
+    "transaction_id": "m1753848678562.38"
+  },
+  "event_id": "$pHTcL9g-sRKwBMVMWwx9FpiVvw8cU1XgQ1q4K5FtcS0",
+  "room_id": "!ObEhKpSKlhUSfiYJCq:matrix.org"
+}

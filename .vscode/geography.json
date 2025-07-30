@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Canada",
+    "code": "CAN",
+    "capital": "Ottawa",
+    "population": 38246108,
+    "currency": "CAD",
+    "states": [
+      {
+        "name": "Ontario",
+        "code": "ON",
+        "capital": "Toronto",
+        "population": 14734014
+      },
+      {
+        "name": "Quebec",
+        "code": "QC",
+        "capital": "Quebec City",
+        "population": 8575944
+      }
+    ]
+  },
+  {
+    "name": "United States of America",
+    "code": "USA",
+    "capital": "Washington, D.C.",
+    "population": 331893745,
+    "currency": "USD",
+    "states": [
+      {
+        "name": "California",
+        "code": "CA",
+        "capital": "Sacramento",
+        "population": 39237836
+      },
+      {
+        "name": "New York",
+        "code": "NY",
+        "capital": "Albany",
+        "population": 19299981
+      },
+      {
+        "name": "Texas",
+        "code": "TX",
+        "capital": "Austin",
+        "population": 29527941
+      }
+    ]
+  }
+]

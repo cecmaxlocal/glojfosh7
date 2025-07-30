@@ -1,0 +1,148 @@
+
+
+Software publicado deve ser software livre. Para fazê-lo software livre, você precisa lançá-lo sob uma licenças de software livre. Nós normalmente usamos a Licença Pública Geral GNU (GNU GPL), especificando versão 3 ou qualquer outra versão posterior, mas ocasionalmente nós usamos outras licenças de software livre. Nós usamos somente licenças que são compatíveis com a GNU GPL para software GNU.
+
+Documentação para software livre deve ser documentação livre, então as pessoas podem redistribuí-la e melhorá-la como o software é descrito. Para fazê-lo uma documentação livre, você precisa lançá-lo sob uma licença de documentação livre. Nós normalmente usamos a Licença de Documentação Livre GNU (GNU FDL), mas ocasionalmente nós usamos outras licenças de documentação livre.
+
+Se você iniciou um novo projeto e você não tem certeza qual licença usar, “Como escolher uma licença para seu próprio trabalho” detalha nossas recomendações em um guia simples e fácil. Se você só quer uma lista de referência rápida, nós temos uma página chamada de licenças de copyleft recomendada.
+
+Nós também temos uma página que discute os Problemas da Licença BSD.
+Licenças avaliadas
+
+Se você encontrar uma licença não mencionada em nossa lista de licença, você pode nos solicitar que seja avaliada como uma licença livre. Por favor, envie uma cópia do e-mail da licença (e a URL onde você encontrou isso) para licensing@fsf.org. Nossos especialistas em licenças do quadro de funcionários e da diretoria irão avaliá-la. Se a licença tem condições incomuns, elas podem apresentar problemas filosóficos dificuldades, então nós não podemos prometer decidir rapidamente.
+Recursos comuns para nossas licenças de software
+
+Nós temos alguns recursos para ajudar pessoas a entender e usar nossas várias licenças:
+
+    Questões Feitas Frequentemente sobre as licenças GNU
+    Como usar licenças do GNU em seus próprios programas
+    O que fazer caso você veja uma violação de uma licença do GNU
+    Compatibilidade de Licença e Relicenciamento
+    Lista de licenças de software livre
+    Lançando Software Livre caso você trabalhe em uma universidade
+    Por que a FSF recebe o copyright dos colaboradores
+    Licença das logos GNU para usar com seu projeto
+    O laboratório de licenciamento & conformidade da FSF
+    <licensing@fsf.org> para obter ajuda em geral sobre o uso de licenças
+
+A Licença Pública Geral GNU
+
+A Licença Pública Geral GNU (GNU General Public License) é frequentemente chamada abreviadamente de GNU GPL; ela é utilizada pela maioria dos programas GNU, assim como mais da metade de todos os outros programas de software livre. A versão mais recente é a versão 3.
+
+    A Licença Pública Geral GNU está disponível nesses formatos: HTML, texto plano, ODF, Docbook v4 ou v5, Texinfo, LaTeX, Markdown, e RTF. Esses documentos não são formatados para serem publicados isoladamente, e a intenção é que sejam incluídos em outro documento.
+    Guia rápido da GPLv3
+    Versões mais antigas da GNU GPL
+
+A Licença Pública Geral Menor GNU
+
+A Licença Pública Geral Menor GNU (GNU Lesser General Public License) é utilizada em algumas (mas não todas) as bibliotecas GNU. A versão mais recente é a versão 3.
+
+    O texto da Licença Pública Geral Menor GNU está disponível nesses formatos: HTML, texto plano , Docbook, Texinfo, Markdown, ODF, e RTF. Esses documentos não são formatados para serem publicados isoladamente, e a intenção é que sejam incluídos em outro documento.
+    Por que você não deve utilizar a LGPL para a sua próxima biblioteca
+    Versões mais antigas da GNU LGPL
+
+A Licença Pública Geral Affero GNU
+
+A Licença Pública Geral Affero GNU (GNU Affero General Public License) é baseada na GNU GPL, mas tem um termo adicional que permite os usuários que interagir com o software licenciado em uma rede receber o fonte daquele programa. Nós recomendamos que as pessoas considere usar a GNU AGPL para qualquer software que irá comumente ser executada em rede. A última versão é a 3.
+
+    O texto da Licença Pública Geral Affero GNU está disponível nesses formatos: HTML, texto plano, Docbook, Texinfo, LaTeX, Markdown, ODF, e RTF. Esses documentos não são formatados para serem publicados isoladamente, e a intenção é que sejam incluídos em outro documento.
+    Por que a GPL Affero
+
+A Licença de Documentação Livre GNU
+
+A Licença de Documentação Livre GNU (GNU Free Documentation License) é uma forma de copyleft criada para uso em manuais, livros ou outros documentos para garantir que qualquer um tem a real liberdade de copiar e redistribui-los, com ou sem modificações, tanto comercial quanto não comercialmente. A versão mais recente é versão 1.3.
+
+    O texto da Licença de Documentação Livre GNU está disponível nesses formatos: HTML, texto plano, Docbook v4 ou v5, Texinfo, LaTeX, Markdown, ODF, e RTF. Esses documentos não são formatados para serem publicados isoladamente, e a intenção é que sejam incluídos em outro documento.
+    Por que os editores devem utilizar a GNU FDL
+    Como usar a GNU FDL para sua documentação
+    Dicas de como utilizar a GNU FDL
+    Como usar os recursos opcionais da GNU FDL
+    Versões mais antigas da GNU FDL
+
+Exceções às licenças GNU
+
+Alguns programas GNU tem permissões adicionais ou exceções especiais para termos específicos em uma licença principal. Desde que algum desses sejam comumente usado ou inspire muitas questões deles próprios, nós temos iniciado uma coleção na nossa página de exceções.
+URLs das licenças
+
+Quando ligamos para nossas licenças, usualmente é melhor ligar para a última versão; consequentemente as URLs padrões como http://www.gnu.org/licenses/gpl.html não tem um número de versão. Ocasionalmente, contudo, você pode querer ligar para uma versão específica da licença dada. Nessas situações, você pode usar os seguintes links [pular links]:
+
+Licença Pública Geral GNU (GPL)
+    GPLv3, GPLv2, GPLv1
+Licença Pública Geral Menor GNU (LGPL)
+    LGPLv3, LGPLv2.1
+Licença Pública Geral Affero GNU (AGPL)
+    GNU AGPLv3 (A Licença Pública Geral Affero versão 1 não é uma licença GNU, mas ela foi projetada para servir para propósitos como os da GNU AGPL.)
+Licença de Documentação Livre GNU (FDL)
+    FDLv1.3, FDLv1.2, FDLv1.1
+
+Links estáveis para os formatos alternativos de cada licenças estão disponíveis em suas respectivas páginas. Nem toda versão de toda licença está disponível em todos os formatos. Se você precisa de uma que está faltando, por favor, envie um e-mail para nós.
+
+Ver também a pagina de antigas licenças.
+Traduções não oficiais
+
+Falando legalmente, a versão original em inglês da GPL é que especifica os verdadeiros termos de distribuição para os programas do GNU. Mas para ajudar as pessoas a entender melhor as licenças, nós damos a outros a permissão para publicar traduções em outros idiomas se as traduções seguirem as nossas regras para traduções não oficiais.
+
+A FSF não aprova traduções de licenças como oficialmente válidas. A razão é que verificá-las seria difícil e caro (precisando da ajuda de advogados bilíngues em outros países). Pior ainda, se um erro escapar, os resultados podem ser desastrosos para toda a comunidade de software livre. Contanto que as traduções não sejam oficiais, elas não podem causar nenhum dano legal.
+
+Para ressaltar o fato de que essas traduções não são oficialmente válidas, não publicamos traduções. Para deixar isso claro, não os postamos no gnu.org ou em outros sites GNU e FSF; nós apenas adicionamos links a eles.
+
+    Lista de traduções não oficiais
+    Como criar uma tradução não oficial
+
+Distribuição e cópia verbatim
+
+Os termos padrão do copyright para as páginas web GNU agora é a Licença Creative Commons Atribuição-SemDerivações 4.0 Internacional. Costumava ser (e para poucas páginas que ainda está):
+
+    Verbatim copying and distribution of this entire article are permitted worldwide, without royalty, in any medium, provided this notice is preserved.1
+
+Por favor, observe o seguinte comentário sobre essa “licença verbatim” por Eben Moglen:
+
+    “Nossa intenção ao usar a frase ‘cópia verbatim em qualquer meio’ não é exigir retenção dos título e rodapés de páginas ou outra característica de formatação. Retenção de weblinks em ambos meios com ou sem hiperlink (como notas ou algum outra forma de URL impressa em mídias não HTML) é exigido.” 
+
+Lista de licenças de software livre
+
+    Lista de licenças de software livre
+
+    Se você está considerando escrever uma nova licença, por favor contate a FSF escrevendo para <licensing@fsf.org>. A proliferação de diferente licenças de software livre significa aumentar o trabalho para os usuários entender as licenças; nós podemos ser capaz de ajudar você a encontrar uma licença de Software Livre que você precisa.
+
+    Se aquilo não é possível, se você realmente precisa de uma nova licença, com nossa ajuda você pode se certificar que a licença realmente é uma licença de Software Livre e evita vários problemas práticos.
+
+O que é copyleft?
+
+Copyleft é um método legal de tornar um programa em software livre e exigir que todas as versões modificadas e estendidas do programa também sejam software livre.
+
+O modo mais simples de tornar um programa em software livre é colocá-lo sob o domínio público, sem copyright. Isto permite às pessoas compartilharem o programa e suas melhorias, se elas assim o desejarem. Mas isto também permite a pessoas não cooperativas converterem o programa em software privativo. Elas podem fazer modificações, muitas ou poucas, e distribuir o resultado como um produto privativo. As pessoas que recebem o programa nesta versão modificada não tem as liberdades que o autor original deu a elas; o intermediário as retirou.
+
+No Projeto GNU, nossa intenção é dar a todos os usuários a liberdade de redistribuir e modificar o software GNU. Se intermediários pudessem retirar as liberdades, nós poderíamos ter muitos usuários, mas não teríamos liberdade. Por isso, em vez de colocar o GNU em domínio público, nós o tornamos “copyleft”. Copyleft diz que qualquer um que redistribui o software, com ou sem modificações, tem que passar adiante as liberdades de fazer novas cópias e modificá-las. O Copyleft garante que todos os usuários tenham liberdade.
+
+Copyleft também fornece um incentivo para outros programadores adicionarem recursos ao software livre. Programas livres importantes como o compilador GNU C++ só existem por causa disso.
+
+O Copyleft também ajuda os programadores que desejam contribuir com melhorias para o software livre a obterem permissão de fazê-lo. Esses programadores frequentemente trabalham para empresas ou universidades que fariam qualquer coisa para ganhar mais dinheiro. Um programador pode desejar contribuir com modificações para a comunidade, mas seu empregador pode desejar transformar as mudanças em um produto de software privativo.
+
+Quando nós explicamos ao empregador que é ilegal distribuir a versão melhorada exceto como software livre, o empregador geralmente decide liberá-la como software livre em vez de descartá-la.
+
+Para tornar um programa em copyleft, nós primeiro afirmamos que ele está sob copyright; depois nós adicionamos termos de distribuição, que são um instrumento legal que concede a todos o direito de usar, modificar, e redistribuir o código-fonte do programa ou qualquer outro programa derivado dele mas somente se os termos de distribuição permanecerem inalterados. Assim, o código e as liberdades se tornam legalmente inseparáveis.
+
+Desenvolvedores de software privativo utilizam o copyright para retirar as liberdades das pessoas; nós utilizamos o copyright para garantir essas liberdades. É por isso que nós invertemos o nome, mudando “copyright” (“direitos de cópia”, “cópia direita”) para “copyleft” (“esquerda de cópia”, “cópia esquerda”).
+
+O Copyleft é um conceito genérico; existem vários modos de preencher os detalhes. No Projeto GNU, os termos específicos de distribuição que nós utilizamos estão contidos na Licença Pública Geral GNU, na Licença Pública Geral Menor GNU e na Licença de Documentação Livre GNU.
+
+A licença apropriada é incluída em vários manuais e em cada distribuição de código-fonte do GNU.
+
+A GNU GPL foi desenhada de modo que ela seja facilmente aplicável ao seu próprio programa se você é o detentor do copyright. Você não tem que modificar a GNU GPL para fazer isso, apenas adicione notas ao seu programa que se refiram adequadamente à GPL. Por favor note que você deve utilizar o texto completo da GPL, se você utilizá-la. Ele é um conjunto indivisível, e cópias parciais não são permitidas. (O mesmo vale para a LGPL, AGPL e FDL).
+
+Utilizar os mesmos termos de distribuição para vários programas diferentes torna mais fácil copiar código entre eles. Já que eles tem os mesmos termos de distribuição, não há necessidade de verificar se os termos são compatíveis. A LGPL inclui termos que deixa você alterar os termos de distribuição para a GPL original, de modo que você possa copiar código de um programa LGPL para um programa coberto pela GPL.
+Licenças para outros tipos de trabalhos
+
+Nós acreditamos que software publicado e a documentação deve ser software livre e a documentação livre. Nós recomendamos fazer tudo pelos tipos de educação e trabalhos de referência livre também, usando as licenças de documentação livre como a Licença de Documentação Livre GNU (GNU FDL).
+
+Para ensaios de opinião e artigos científicos, nós recomendamos ou a licença Creative Commons Atribuição-SemDerivações 3.0 Estados Unidos, ou uma licença “cópia verbatim apenas” simples iniciada acima.
+
+Nós não levamos a posição que artistas ou trabalhos de entretenimento deve ser de graça, mas se você quer fazê-lo, nós recomendamos a Licença de Arte livre.
+Nota do tradutor:
+
+    ↑ Em português, os termos de direitos autorais das páginas web GNU seriam equivalente a:
+
+        Distribuição e cópia verbatim desse artigo inteiro são permitido no mundo inteiro, sem royalty, em qualquer meio, provido essa nota é preservada. 
+
+

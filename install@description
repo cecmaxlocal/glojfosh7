@@ -1,0 +1,125 @@
+Okay, here are the common ways to install the Dart SDK:
+
+**Method 1: Install via the Flutter SDK (Most Common for Flutter Development)**
+
+If you plan to do Flutter development (for mobile, web, or desktop apps), the easiest way is to install the Flutter SDK. **Flutter includes its own version of the Dart SDK.**
+
+1.  **Go to the Flutter installation page:** [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
+2.  **Follow the specific instructions for your operating system** (Windows, macOS, Linux).
+3.  During the setup, you'll be asked to add the Flutter `bin` directory to your system's PATH environment variable.
+4.  **Once Flutter is installed and configured correctly, the `dart` command will automatically be available** in your terminal or command prompt.
+
+    ```bash
+    # Verify Flutter installation (which includes Dart)
+    flutter doctor
+
+    # Verify Dart installation specifically
+    dart --version
+    ```
+
+**Method 2: Install the Standalone Dart SDK (for Dart Backend, CLI tools, etc.)**
+
+If you only need Dart (e.g., for command-line tools, server-side development with frameworks like Aqueduct/Serverpod, or web development without Flutter), you can install the Dart SDK directly.
+
+Choose the instructions for your operating system:
+
+**A) Windows:**
+
+*   **Using Chocolatey (Recommended):**
+    1.  Make sure you have Chocolatey installed ([https://chocolatey.org/install](https://chocolatey.org/install)).
+    2.  Open PowerShell or Command Prompt **as Administrator**.
+    3.  Run:
+        ```powershell
+        choco install dart-sdk
+        ```
+    4.  Close and reopen your terminal. Verify with `dart --version`.
+
+*   **Using Scoop:**
+    1. Make sure you have Scoop installed ([https://scoop.sh/](https://scoop.sh/)).
+    2. Open PowerShell or Command Prompt.
+    3. Run:
+       ```powershell
+       scoop install dart
+       ```
+    4. Close and reopen your terminal. Verify with `dart --version`.
+
+*   **Manual Download (Zip):**
+    1.  Go to the Dart SDK archive page: [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive)
+    2.  Download the `.zip` file for the latest stable release for Windows (x64 or ia32).
+    3.  Extract the `dart-sdk` folder to a location on your computer (e.g., `C:\dart-sdk`).
+    4.  **Add the `dart-sdk\bin` directory to your system's PATH environment variable.**
+        *   Search for "Environment Variables" in the Windows search bar.
+        *   Click "Edit the system environment variables".
+        *   Click the "Environment Variables..." button.
+        *   Under "System variables" (or "User variables" if preferred), find the `Path` variable, select it, and click "Edit...".
+        *   Click "New" and add the full path to the `bin` directory (e.g., `C:\dart-sdk\bin`).
+        *   Click OK on all dialogs.
+    5.  Close and reopen **all** Command Prompt or PowerShell windows. Verify with `dart --version`.
+
+**B) macOS:**
+
+*   **Using Homebrew (Recommended):**
+    1.  Make sure you have Homebrew installed ([https://brew.sh/](https://brew.sh/)).
+    2.  Open your Terminal.
+    3.  Run:
+        ```bash
+        brew tap dart-lang/dart
+        brew install dart
+        ```
+    4.  Verify with `dart --version`.
+
+*   **Manual Download (Zip):**
+    1.  Go to the Dart SDK archive page: [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive)
+    2.  Download the `.zip` file for the latest stable release for macOS (x64 or arm64).
+    3.  Extract the `dart-sdk` folder (e.g., to `~/dart-sdk` or `/usr/local/dart-sdk`).
+    4.  **Add the `dart-sdk/bin` directory to your PATH.** Edit your shell configuration file (like `~/.zshrc` for Zsh (default on newer macOS) or `~/.bash_profile` for Bash). Add a line like this (replace `/path/to/` with the actual path):
+        ```bash
+        export PATH="$PATH:/path/to/dart-sdk/bin"
+        ```
+    5.  Save the file and run `source ~/.zshrc` (or `source ~/.bash_profile`) or open a new terminal window.
+    6.  Verify with `dart --version`.
+
+**C) Linux (Debian/Ubuntu):**
+
+*   **Using `apt-get` (Recommended):**
+    1.  Open your Terminal.
+    2.  Update package lists and install HTTPS support:
+        ```bash
+        sudo apt-get update
+        sudo apt-get install apt-transport-https
+        ```
+    3.  Add the Google signing key:
+        ```bash
+        sudo sh -c 'wget -qO- https://dl-ssl.google.com/linux/linux_signing_key.pub | gpg --dearmor > /usr/share/keyrings/dart.gpg'
+        ```
+    4.  Add the Dart repository:
+        ```bash
+        echo 'deb [signed-by=/usr/share/keyrings/dart.gpg arch=amd64] https://storage.googleapis.com/download.dartlang.org/linux/debian stable main' | sudo tee /etc/apt/sources.list.d/dart_stable.list
+        ```
+    5.  Update package lists again and install Dart:
+        ```bash
+        sudo apt-get update
+        sudo apt-get install dart
+        ```
+    6.  Verify with `dart --version`.
+
+*   **Manual Download (Zip):**
+    1.  Go to the Dart SDK archive page: [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive)
+    2.  Download the `.zip` file for the latest stable release for Linux (x64 or ia32, arm, arm64).
+    3.  Extract the `dart-sdk` folder (e.g., to `~/dart-sdk` or `/usr/local/dart-sdk`).
+    4.  **Add the `dart-sdk/bin` directory to your PATH.** Edit your shell configuration file (like `~/.bashrc` or `~/.zshrc`). Add a line like this (replace `/path/to/` with the actual path):
+        ```bash
+        export PATH="$PATH:/path/to/dart-sdk/bin"
+        ```
+    5.  Save the file and run `source ~/.bashrc` (or `source ~/.zshrc`) or open a new terminal window.
+    6.  Verify with `dart --version`.
+
+**Verification:**
+
+After installation using any method, open a **new** terminal/command prompt window and run:
+
+```bash
+dart --version
+```
+
+You should see the installed Dart SDK version printed.

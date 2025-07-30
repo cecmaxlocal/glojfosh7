@@ -1,0 +1,41 @@
+How licensing works
+
+Applies to Google Workspace, Cloud Identity, and other services managed in the Google Admin console.
+
+A user needs a license to use a Google service. For example, a user must have a license for Google Workspace before they can use Gmail, Google Drive, or any other Google Workspace tool. A user can have a license for more than one service. Multiple users cannot share a single Google Workspace license, even if they don't use all of the tools.
+
+This article contains general licensing information that applies to all Google services managed in your Google Admin console. For licensing information specific to Cloud Identity, see How Cloud Identity licensing works .
+
+Site-based and user-based licenses
+
+For some Google services, such as Android, licenses are site-based. When you sign up for the service, each user in your organization automatically gets a license, even if they already have a license for a different service. You don't need to assign site-based licenses.
+
+For other Google services, such as Google Workspace, licensing is user-based. For these services, a user must be assigned a license to use the service. For details, see the next section on assigning user-based licenses.
+
+Assigning user-based licenses
+
+If you purchased only one Google service that has user-based licensing, all of your users are assigned a license for that service by default. You don't need to assign licenses.
+
+You need to assign licenses if any of the following apply:
+
+You purchased more than one user-based Google service, such as Google Workspace and Google Voice. For services that include additional services, a user only needs a license for the parent service. For example, a license for Google Workspace gives the user access to Gmail, Google Calendar, Drive, and all other services included with Google Workspace.
+
+You purchased multiple subscriptions to the same service, such as different editions of Google Workspace.
+
+You can assign licenses to individual users, to everyone in an organizational unit, or to everyone in your organization.
+
+If you're on the Annual Plan, you can only assign as many licenses as you've purchased, including any of the automatic or manual methods described below. If you try to manually assign more licenses than you've purchased, you'll get an error message and the licenses won't be assigned. In this case, you'll need to delete users or get more licenses .
+Ways to assign user-based licenses
+
+You can assign licenses automatically or manually.
+
+Expand section | Collapse all and go to top
+Automatically assigning user-based licenses
+Manually assigning user-based licenses
+Reducing licenses
+
+You can reduce licenses for a paid service, such as Google Workspace, to lower your monthly payment. You can also reduce licenses you don't need for a free service.
+
+If you're on the Annual Plan—You can reduce licenses only when it's time to renew your contract. For details, see Reduce user licenses .
+
+If you're on the Flexible Plan or your Google service has site-based licensing—You can't reduce licenses directly. Instead, you can delete users at any time, and their licenses will be removed from your account. For details, see Delete or remove a user from your organization .

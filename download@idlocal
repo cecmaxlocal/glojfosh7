@@ -1,0 +1,37 @@
+Okay, you want to download the Dart SDK. The best way depends on whether you also plan to use **Flutter**.
+
+**Option 1: If you ARE developing with Flutter (Recommended for most app development)**
+
+*   **Flutter includes the Dart SDK.** You don't need a separate Dart download.
+*   **Go here:** [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install)
+*   Follow the installation instructions for your operating system (Windows, macOS, Linux).
+*   Once Flutter is installed and its `bin` directory is added to your PATH, the `dart` command will be available automatically.
+
+**Option 2: If you want ONLY the Dart SDK (for backend, CLI tools, web without Flutter)**
+
+1.  **Go to the official Dart SDK download page:**
+    [https://dart.dev/get-dart](https://dart.dev/get-dart)
+
+2.  **Choose your Operating System and follow the instructions:**
+
+    *   **Windows:**
+        *   **Recommended:** Use a package manager like Chocolatey (`choco install dart-sdk`) or Scoop (`scoop install dart`).
+        *   **Alternative:** Download the `dartsdk-windows-....zip` file from the SDK archive ([https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive)), extract it, and manually add the `dart-sdk\bin` directory to your system's PATH environment variable.
+
+    *   **macOS:**
+        *   **Recommended:** Use Homebrew (`brew tap dart-lang/dart` then `brew install dart`).
+        *   **Alternative:** Download the `dartsdk-macos-....zip` file from the SDK archive ([https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive)), extract it, and manually add the `dart-sdk/bin` directory to your PATH (usually by editing `~/.zshrc` or `~/.bash_profile`).
+
+    *   **Linux (Debian/Ubuntu):**
+        *   **Recommended:** Use `apt-get`. The instructions on the "Get Dart" page involve adding the Dart repository and then running `sudo apt-get update && sudo apt-get install dart`.
+        *   **Alternative:** Download the `dartsdk-linux-....zip` file from the SDK archive ([https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive)), extract it, and manually add the `dart-sdk/bin` directory to your PATH (usually by editing `~/.bashrc` or `~/.zshrc`).
+
+**After Installation (for Standalone Dart):**
+
+*   Make sure you close and reopen your terminal or command prompt window for PATH changes to take effect.
+*   Verify the installation by running:
+    ```bash
+    dart --version
+    ```
+
+Choose the option that best fits your needs! Downloading via Flutter is generally the simplest if you intend to build UIs with it.

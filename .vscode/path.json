@@ -1,0 +1,17 @@
+{
+  "content": {
+    "body": "\"dog late hell\" -> information describer tool develop using form documentation read voice text 🦮",
+    "m.mentions": {},
+    "msgtype": "m.text"
+  },
+  "origin_server_ts": 1753819214775,
+  "sender": "@cecmaxlocal:matrix.org",
+  "type": "m.room.message",
+  "unsigned": {
+    "membership": "join",
+    "age": 1998,
+    "transaction_id": "m1753819214078.32"
+  },
+  "event_id": "$RABmJpFsWzAyge9iR6nlzaku2sO9SRZOQsP_0CNQbOY",
+  "room_id": "!UNybbMLXdOJzWrwaqo:matrix.org"
+}

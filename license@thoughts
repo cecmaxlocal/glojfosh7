@@ -1,0 +1,38 @@
+Here's a thinking process for generating the Dart license information:
+
+1.  **Understand the User's Request:** The user asked for "license dart". This is concise but likely means "What license does Dart itself use?" and possibly "How do I add a license to *my* Dart project?"
+
+2.  **Address the Core Question: Dart's License:**
+    *   Recall or quickly search for "Dart SDK license".
+    *   Keywords: "Dart", "license", "SDK".
+    *   Expected result: Dart uses a BSD-style license.
+    *   Find the official source: The `LICENSE` file in the Dart SDK repository ([https://github.com/dart-lang/sdk/blob/main/LICENSE](https://github.com/dart-lang/sdk/blob/main/LICENSE)).
+    *   Confirm the specific license: It's a custom 3-clause BSD-style license.
+    *   Summarize the key permissions/conditions of BSD licenses in general (permissive, minimal restrictions, requires copyright notice and disclaimer).
+    *   Mention the origin (Google) and the purpose (permissive, good for adoption).
+
+3.  **Address the Implied Question: Licensing *Your* Dart Project:**
+    *   Recognize that developers often need to license their *own* code written *in* Dart.
+    *   Explain *why* licensing is important (clarifies usage rights, prevents legal ambiguity).
+    *   List common, suitable licenses for open-source Dart projects:
+        *   **Permissive:** MIT, Apache 2.0, BSD (3-clause, 2-clause). Explain their general characteristics (few restrictions, good for libraries). MIT is often the simplest and most popular. Apache 2.0 includes patent grant considerations.
+        *   **Copyleft:** GPL (v2, v3), AGPL. Explain their main characteristic (derived works must also be open-sourced under the same license). Note they are less common for typical Dart libraries but might be used for full applications.
+    *   Mention `LICENSE` file: Emphasize the standard practice of including the full license text in a file named `LICENSE` (or `LICENSE.md`) in the project root.
+    *   Mention `pubspec.yaml`: Point out the `repository` and (less common but possible) `homepage` or documentation links where license info might also be found. Explain that `pub.dev` *uses* the `LICENSE` file to display license information automatically.
+    *   Mention SPDX Identifiers: Briefly introduce standard license identifiers (e.g., `MIT`, `Apache-2.0`) as used by tools and platforms like GitHub and pub.dev.
+
+4.  **Provide Practical Steps:** How does a developer *actually* add a license?
+    *   **Choose a license:** Direct them to resources like [choosealicense.com](https://choosealicense.com/).
+    *   **Create the `LICENSE` file:** Instruct them to copy the full text of the chosen license into this file.
+    *   **Add Copyright/Year:** Remind them to add their copyright notice and the year(s) where indicated in the license text.
+    *   **(Optional but good practice):** Add a license header to source files (mention this briefly, as it's common but not strictly required by all licenses like MIT).
+    *   **Commit:** Add the `LICENSE` file to version control.
+
+5.  **Structure and Refine:**
+    *   Start with the direct answer about Dart's own license.
+    *   Transition clearly to licensing *your* project.
+    *   Use headings and bullet points for readability.
+    *   Use bold text for emphasis on key terms (license names, file names).
+    *   Provide links to official sources and helpful resources.
+    *   Include a disclaimer that this is not legal advice.
+    *   Review for clarity, accuracy, and completeness based on the likely user intent. Ensure the distinction between Dart's license and licenses *for* Dart projects is clear.

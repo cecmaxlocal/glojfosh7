@@ -1,0 +1,17 @@
+{
+  "content": {
+    "body": " dlisp a comprehensive language",
+    "m.mentions": {},
+    "msgtype": "m.text"
+  },
+  "origin_server_ts": 1753743058805,
+  "sender": "@cecmaxlocal:matrix.org",
+  "type": "m.room.message",
+  "unsigned": {
+    "membership": "join",
+    "age": 8505,
+    "transaction_id": "m1753743058123.27"
+  },
+  "event_id": "$NTKBhsKnue4KAIAtnN-9x9OFZhXfAkJBHZbUpWbmwdA",
+  "room_id": "!OGEhHVWSdvArJzumhm:matrix.org"
+}

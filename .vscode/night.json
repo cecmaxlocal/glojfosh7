@@ -1,0 +1,23 @@
+{
+  "content": {
+    "body": "the need to solve the script needs to use the government but the social class needs soap operas or films to understand the simulation of life. the_machine_in_the_ghost ",
+    "format": "org.matrix.custom.html",
+    "formatted_body": "the need to solve the script needs to use the government but the social class needs soap operas or films to understand the simulation of life. <a href=\"https://matrix.to/#/@machine_in_the_ghost:matrix.org\">the_machine_in_the_ghost</a>",
+    "m.mentions": {
+      "user_ids": [
+        "@machine_in_the_ghost:matrix.org"
+      ]
+    },
+    "msgtype": "m.text"
+  },
+  "origin_server_ts": 1753831212806,
+  "sender": "@cecmaxlocal:matrix.org",
+  "type": "m.room.message",
+  "unsigned": {
+    "membership": "join",
+    "age": 498,
+    "transaction_id": "m1753831212347.33"
+  },
+  "event_id": "$YcbUr4O5aOXwMO3-SAqC8b46RnDKfwvNYZKyB143i5g",
+  "room_id": "!UNybbMLXdOJzWrwaqo:matrix.org"
+}
